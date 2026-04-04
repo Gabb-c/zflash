@@ -1,38 +1,39 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Something isn't working as expected
 title: ''
-labels: ''
+labels: bug
 assignees: ''
-
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of what went wrong.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Command run**
+The exact command you ran:
+```sh
+zflash flash ...
+```
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+What you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Actual behavior**
+What actually happened. Please include the full terminal output:
+```
+paste output here
+```
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Environment**
+- OS: [e.g. Ubuntu 24.04, Arch Linux, NixOS 24.05]
+- Kernel: [e.g. 6.8.0] (`uname -r`)
+- zflash version: [e.g. 0.1.0] (`zflash --version`)
+- Zig version: [e.g. 0.14.0] (`zig version`)
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**ISO and target device**
+- ISO file: [e.g. nixos-minimal-24.05-x86_64-linux.iso]
+- Target device: [e.g. /dev/sdb, 32GB USB stick]
+- Drive detected by `zflash list`? [yes / no]
 
 **Additional context**
-Add any other context about the problem here.
+Any other relevant details — hardware quirks, filesystem state, whether you ran as root, etc.
