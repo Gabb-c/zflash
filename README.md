@@ -26,7 +26,7 @@ A fast, safe CLI tool for flashing OS images to USB drives — built in Zig.
 You'll need [Zig](https://ziglang.org/download/) `0.14.0` or later.
 
 ```sh
-git clone https://github.com/yourusername/zflash
+git clone https://github.com/Gabb-c/zflash
 cd zflash
 zig build
 ```
@@ -63,7 +63,7 @@ zflash flash --dry-run nixos.iso /dev/sdb
 
 zflash is being built incrementally. Here's where things stand:
 
-- [x] Project structure and build setup
+- [ ] Project structure and build setup
 - [ ] Device discovery (Linux `/sys/block`)
 - [ ] ISO validation (magic bytes, size check)
 - [ ] Safety guard (block system drives)
@@ -94,7 +94,7 @@ If you're new to Zig yourself and want to contribute while learning, this is a g
 **To get started:**
 
 1. Fork the repo and clone it locally
-2. Check the [open issues](https://github.com/yourusername/zflash/issues) for something to work on
+2. Check the [open issues](https://github.com/Gabb-c/zflash/issues) for something to work on
 3. Open a pull request with your changes
 
 Please open an issue before starting work on a large feature, so we can discuss the approach first.
